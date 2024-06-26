@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+
+body {
+    background: linear-gradient(245.59deg, #00a5e3 28.53%, #96c3eb 75.52%);
+    min-height: 100vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
+
+
+/*.......atas.......*/
+.ctner1 {
+  width: 700px;
+  height: 300px;
+  margin: 100px auto;
+  position: relative;
+}
+.ctner1 h4 {
+  margin: 0;
+  padding: 0;
+  font-family: "Mali", cursive;
+  font-size: 25px;
+  text-align: center;
+  top: 50%;
+}
+
+
+
+
+
+
+/*.....container.....*/
+.ctner {
+    height: 100%;
+    max-width: 950px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .ctner .main-card {
+    width: 194%;
+    display: flex;
+  
+  }
+  
+  .main-card .cards {
+    width: calc(100% / 2 - 10px);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 50px 0;
+  }
+  
+  .main-card .cards .card {
+    background: white;
+    width: calc(100% / 3 - 5px);
+    padding: 30px 50px;
+    border-radius: 24px;
+  }
+  
+  .cards .card .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  .cards .card .content .img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 14px;
+    background: rgb(38, 5, 147);
+    padding: 3px;
+    border-radius: 50%;
+  }
+  
+  .card .content .img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 3px solid #fff;
+  }
+  
+  .card .content .details .name {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .card .content .details .job {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(16, 10, 174);
+  }
+  
+  .card .content .media-icons {
+    display: flex;
+  }
+  
+  .card .content .media-icons a {
+    height: 35px;
+    width: 35px;
+    color: #fff;
+    background: rgb(202, 13, 45);
+    margin: 0 4px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 33px;
+    font-size: 14px;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+  }
+  
+  .card .content .media-icons a:hover {
+   border-color: rgb(202, 13, 45);
+   color: rgb(202, 13, 45);
+   background: transparent;
+  }
+  
+  /*   button   */
+.boxx{
+    height: 100hv;
+    width: 100%;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  btn {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 20px;
+    margin: 30px;
+    width: 350px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 10px 10px 10px -1px rgba(10, 100, 169, 0.222),
+               -10px -10px 10px -1px rgba(255, 255, 255, 0.483);
+  }
+  
+  btn a {
+    color: rgb(34, 14, 133);
+    font-family: 'Playwrite NL', cursive;
+    font-size: 25px;
+    font-weight: 900;
+  }
+  
